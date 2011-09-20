@@ -4,7 +4,7 @@
 
 ## Hook Events Names
 
-**addJob** *adds a new job to be executed on a set interval*:
+**jobs::add** *adds a new job to be executed on a set interval*:
 
 ## Hook config.json data
 
