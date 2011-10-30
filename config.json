@@ -2,12 +2,14 @@
   "jobs" : [
     {
       "event": "hello",
+      "mask":"*/2 * * * * *",
       "data": {
         "prop": "val"
       }
     },
     {
       "event": "test",
+      "mask":"*/10 * * * * *",
       "data": {
         "prop2": "val2"
       }
@@ -20,3 +22,4 @@
     }
   ]
 }
+
